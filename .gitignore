@@ -1,0 +1,40 @@
+# Git metadata must not be nested
+**/.git/
+
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+
+# Spring Boot / Java
+**/target/
+**/bin/
+**/*.class
+**/*.jar
+
+# Environment variables and credentials
+**/.env
+**/.env.*
+!.env.example
+**/application-local.properties
+**/application-prod.properties
+
+# IDE files
+**/.idea/
+**/.vscode/
+**/.settings/
+**/.classpath
+**/.project
+
+# Logs
+**/*.log
+
+# Archives and videos
+**/*.rar
+**/*.zip
+**/*.mp4
+
+# System files
+.DS_Store
+Thumbs.db
